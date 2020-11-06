@@ -1,0 +1,86 @@
+/*************font import************/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/************* colors ************/
+:root{
+  --primary:#EEBF00;
+  --secondary:#232B38;
+  --ternary:#6C6C6C;
+  --danger:#FE4545;
+  --pure:#FEFEFE;
+  --light:#F0F0F0;
+  --heaven:#FFFFFF;
+  --footer:2D333F;
+}
+
+/************* Global Style ************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.flex{
+  display: flex;
+}
+.justify-between{
+  justify-content:space-between;
+}
+.align-center{
+  align-items: center;
+}
+
+/************* Top Bar Style ************/
+.topBar{
+  background: var(--secondary);
+  color: var(--pure);
+  font-family: 'Raleway', sans-serif;
+  padding: 0.75rem 0;
+}
+.icons a{
+  margin-right: .6rem;
+}
+
+.auth a{
+  color: var(--pure)
+}
+.divider{
+  padding:0 1rem
+}
+.auth img{
+  margin-right: .35rem
+}
+
+
+
+@media (min-width:576px){
+  .container{
+    max-width: 540px;
+  }
+}
+@media (min-width:720px){
+  .container{
+    max-width: 540px;
+  }
+}
+@media (min-width:992px){
+  .container{
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px){
+  .container{
+    max-width: 1152px;
+  }
+}
